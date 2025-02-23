@@ -37,8 +37,8 @@
                         },
                         body: await encodeValues({
                             name: x.name,
-                            addedTokens: 500,
-                            addedXp: 300
+                            addedTokens: 10000,
+                            addedXp: 3000
                         }, e.secret)
                     });
                     fetch("https://api.blooket.com/api/users/add-rewards", {
